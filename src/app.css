@@ -1,0 +1,24 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Font);
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.req_btn{
+    background: linear-gradient(45deg ,var(--Lime-Green),var(--Bright-Cyan) );
+    color: var(--White);
+    font-weight: 700;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.req_btn:hover{
+    opacity: 0.5;
+}

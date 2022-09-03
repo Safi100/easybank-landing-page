@@ -1,0 +1,28 @@
+.navbar .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list__container{
+    display: flex;
+    gap: 20px;
+}
+.list {
+    color: var(--Grayish-Blue);
+    list-style: none;
+    position: relative;
+    padding: 25px 0;
+    cursor: pointer;
+}
+.list::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(45deg ,var(--Lime-Green),var(--Bright-Cyan) );
+}
+.list:hover::after{
+    width: 100%;
+}
