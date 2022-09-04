@@ -1,0 +1,54 @@
+.questions_container{
+    background: var(--Light-Grayish-Blue);
+    padding: 50px 0;
+}
+.questions__heading{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.questions__paragraph{
+    color: var(--Grayish-Blue);
+    margin-bottom: 40px;
+    max-width: 637px;
+}
+.benefits_container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.benefit__card{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    max-width: 323px;
+}
+.benefit__card .img__container{
+    margin-bottom: 5px;
+}
+.benefit__card .benefit__header{
+    font-weight: 500;
+}
+.benefit__card .benefit__paragraph{
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+}
+@media screen and (max-width:1050px) {
+    .benefits_container{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:739px) {
+    .questions_container{
+        text-align: center;
+    }
+    .benefits_container{
+        gap: 50px;
+    }
+    .questions__paragraph{
+        max-width: 437px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
