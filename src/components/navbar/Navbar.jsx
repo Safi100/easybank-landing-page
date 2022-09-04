@@ -7,6 +7,7 @@ import Close from "../../Assets/icon-close.svg"
 import Open from "../../Assets/icon-hamburger.svg"
 const Navbar = () => {
   const [open , setOpen] = useState(false)
+  let a = (open === true) ? document.querySelector("body").classList.add("disable_scroll_in_mobile") : document.querySelector("body").classList.remove("disable_scroll_in_mobile")
   return (
     <div className='navbar'>
       {open && <Blur />}

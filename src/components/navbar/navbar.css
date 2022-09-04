@@ -33,6 +33,7 @@
     display: none;
 }
 .mobile__navbar{
+    z-index: 555;
     flex-direction: column;
     gap: 15px;
     text-align: center;
