@@ -6,8 +6,19 @@
 }
 
 .wrapper{
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+@media (max-width:768px) {
+    .disable_scroll_in_mobile{
+        overflow: hidden;
+    }
 }
 
 .req_btn{

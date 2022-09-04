@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.logo{
+    display: flex;
 }
 .list__container{
     display: flex;
@@ -9,7 +13,6 @@
 }
 .list {
     color: var(--Grayish-Blue);
-    list-style: none;
     position: relative;
     padding: 25px 0;
     cursor: pointer;
@@ -25,4 +28,39 @@
 }
 .list:hover::after{
     width: 100%;
+}
+.hamburger{
+    display: none;
+}
+.mobile__navbar{
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 125%;
+    width: 100%;
+    max-width: 438px;
+    padding: 30px 20px;
+    background: var(--White);
+    display: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .navbar .wrapper{
+        padding: 20px 0;
+    }
+    .hamburger{
+        display: flex;
+    }
+    .mobile__navbar{
+        display: flex;
+    }
+    .list__container{
+        display: none;
+    }
+    .req_btn{
+        display: none;
+    }
 }

@@ -1,0 +1,16 @@
+.blur{
+    display: none;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: linear-gradient(#2d314d,transparent);
+    z-index: -1;
+}
+
+@media screen and (max-width:768px) {
+    .blur{
+        display: block;
+    }
+}
