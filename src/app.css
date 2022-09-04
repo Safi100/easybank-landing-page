@@ -10,7 +10,9 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-
+p{
+    font-size: var(--font-size);
+}
 li{
     list-style: none;
 }
@@ -26,7 +28,7 @@ li{
     color: var(--White);
     font-weight: 700;
     border: 0;
-    padding: 10px 30px;
+    padding: 13px 35px;
     border-radius: 50px;
     cursor: pointer;
 }
