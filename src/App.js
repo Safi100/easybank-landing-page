@@ -4,6 +4,7 @@ import "./app.css"
 import Header from './components/header/Header'
 import Questions from './components/questions/Questions'
 import Article from './components/article/Article'
+import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const App = () => {
       {/* <Header />   */}
       <Questions />
       <Article />
+      <Footer />
     </div>
   )
 }
