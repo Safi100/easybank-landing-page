@@ -61,7 +61,7 @@
     .list__container{
         display: none;
     }
-    .req_btn{
+    .navbar .req_btn{
         display: none;
     }
 }
