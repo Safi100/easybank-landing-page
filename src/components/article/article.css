@@ -35,6 +35,7 @@
 .card__writer{
     margin-bottom: 15px;
     color: var(--Grayish-Blue);
+    font-size: 12px;
 }
 .card__heading{
     font-weight: 500;
@@ -45,7 +46,7 @@
     color: var(--Grayish-Blue);
 }
 .article__card .card__heading:hover{
-    color:var(--Lime-Green);
+    color:#31d35c;
 }
 @media screen and (max-width:1050px) {
     .article__heading{
@@ -56,9 +57,6 @@
     }
 }
 @media screen and (max-width:739px) {
-    .article_container{
-        text-align: center;
-    }
     .article_card_container{
         gap: 50px;
     }
