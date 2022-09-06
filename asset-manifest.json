@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/easybank-landing-page/static/css/main.2923d6e0.css",
+    "main.js": "/easybank-landing-page/static/js/main.efaae2af.js",
+    "static/media/image-currency.jpg": "/easybank-landing-page/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
+    "static/media/image-restaurant.jpg": "/easybank-landing-page/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
+    "static/media/image-mockups.png": "/easybank-landing-page/static/media/image-mockups.48d35b175fe3d36de4ee.png",
+    "static/media/image-plane.jpg": "/easybank-landing-page/static/media/image-plane.03db115dff75876c3f3d.jpg",
+    "static/media/image-confetti.jpg": "/easybank-landing-page/static/media/image-confetti.67921b1124297023a080.jpg",
+    "static/media/icon-api.svg": "/easybank-landing-page/static/media/icon-api.74c8ad1751bbd1e7f545e458f9306885.svg",
+    "static/media/icon-onboarding.svg": "/easybank-landing-page/static/media/icon-onboarding.d74aed6429619336a30e42334d6eb432.svg",
+    "static/media/logo.svg": "/easybank-landing-page/static/media/logo.4d7cebc59950e27d6f943b4c63129d81.svg",
+    "static/media/icon-budgeting.svg": "/easybank-landing-page/static/media/icon-budgeting.ad7169975ea1eda87072ea0325a8204a.svg",
+    "static/media/bg-intro-desktop.svg": "/easybank-landing-page/static/media/bg-intro-desktop.8be308fd4ce79bd32a09ec5437774701.svg",
+    "static/media/bg-intro-mobile.svg": "/easybank-landing-page/static/media/bg-intro-mobile.c2ed38d05001e62c1c09a9cbc976c741.svg",
+    "static/media/icon-online.svg": "/easybank-landing-page/static/media/icon-online.b0622b15741418e9efe3805d1b2ac26b.svg",
+    "index.html": "/easybank-landing-page/index.html",
+    "static/media/icon-close.svg": "/easybank-landing-page/static/media/icon-close.c2e36e0469b3b1e6c27328356ce18aed.svg",
+    "static/media/icon-hamburger.svg": "/easybank-landing-page/static/media/icon-hamburger.b0d311feac968ee5feab7333de091d7f.svg",
+    "main.2923d6e0.css.map": "/easybank-landing-page/static/css/main.2923d6e0.css.map",
+    "main.efaae2af.js.map": "/easybank-landing-page/static/js/main.efaae2af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2923d6e0.css",
+    "static/js/main.efaae2af.js"
+  ]
+}
